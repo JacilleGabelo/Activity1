@@ -1,0 +1,22 @@
+package Activity1;
+
+public class NonRepeatedCharacter {
+
+//Input: AABCDBC
+//Output:D
+
+  public static void main(String[] args) {
+   
+  String inputStr = "AABCDBC";
+  for(char i : inputStr. toCharArray()) {
+    if(inputStr.indexOf(i) == inputStr. lastIndexOf(i)) {
+      
+      System.out.println("First non repeated character is; " +i);
+      
+    }
+  }
+  
+
+  }
+
+}
